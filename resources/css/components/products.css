@@ -1,0 +1,29 @@
+/*resources/css/components/products.css*/
+#products-content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 0;
+}
+.product {
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  height: ;
+}
+.product-img {
+  border: 4px solid black;
+  border-bottom: none;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 9rem;
+}
+.product-img img {
+  max-width: 50%;
+}
+.product p {
+  background-color: black;
+  padding: 0.5rem 0;
+}

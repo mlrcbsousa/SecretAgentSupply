@@ -1,0 +1,20 @@
+/*resources/css/components/banner.css*/
+#banner {
+  background-image: url(../../images/moto.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 25rem;
+  padding-top: 9rem;
+  width: 100%;
+}
+#banner-content {
+  background-color: black;
+  font-weight: bold;
+  width: 20rem;
+  padding: 2rem 3rem;
+}
+#banner-content h1 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
+}

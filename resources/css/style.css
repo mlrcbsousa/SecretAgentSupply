@@ -1,3 +1,22 @@
+@import 'components/header.css';
+@import 'components/banner.css';
+@import 'components/navigation.css';
+@import 'components/products.css';
+@import 'components/location.css';
+@import 'components/footer.css';
+/*media queries*/
+@import 'components/media-query-1024.css';
+@import 'components/media-query-470.css';
+
+/* "Tamming" Box Model With Reset */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 html {
   font-size: 18px;
 }
@@ -14,111 +33,10 @@ a {
   color: white;
 }
 .container {
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
-
-/*header*/
-#header {
-  width: 100%;
-}
-#header img {
-  height: 1.5rem;
-  margin: 0 1rem 0 0.5rem;
-}
-#header h3 {
-  padding: 0.66rem 0;
-}
-#header-content {
-  display: flex;
-  align-items: center;
-}
-
-/*banner*/
-#banner {
-  background-image: url(../images/moto.jpeg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 25rem;
-  padding-top: 9rem;
-}
-#banner-content {
-  background-color: black;
-  font-weight: bold;
-  width: 20rem;
-  padding: 2rem 3rem;
-}
-#banner-content h1 {
-  font-size: 2rem;
-  padding-top: 0.25rem;
-}
-
-/*navigation*/
-#navigation {
-  background-color: firebrick;
-}
-nav {
-  display: flex;
-  justify-content: space-between;
-}
-span {
-  padding: 0.75rem 0;
-}
-
 #wrapper-white {
   background-color: white;
-}
-
-/*products*/
-#product-grid {
-  display: flex;
-  justify-content: space-between;
-  padding: 3rem 0;
-}
-.product {
-  text-align: center;
-  background-color: white;
-  width: 30%;
-  border: 4px solid black;
-}
-.product-img {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  margin: 0 auto;
-  width: 50%;
-  height: 9rem;
-}
-.product-img img {
-  max-width: 100%;
-}
-.product p {
-  background-color: black;
-  padding: 0.5rem 0;
-}
-
-/*location and hours*/
-#location-hours {
-  padding-bottom: 4rem;
-}
-#location-content {
-  display: flex;
-  justify-content: space-between;
-}
-.location {
-  width: 35%;
-}
-.location h3 {
-  background-color: black;
-  padding: 1rem 2rem;
-}
-.location p {
-  color: black;
-  padding-top: 0.25rem;
-}
-
-/*footer*/
-#footer p {
-  padding: 4rem 0;
+  width: 100%;
 }

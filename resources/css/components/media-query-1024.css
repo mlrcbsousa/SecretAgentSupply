@@ -1,0 +1,22 @@
+/*resources/css/components/media-query-1024.css */
+@media only screen
+and (max-width : 1024px) {
+  .container {
+    width: 100%;
+    margin: 0;
+  }
+  .min-width-1024 {
+    display: none;
+  }
+  /*nav bar simplification*/
+  #small-nav {
+    display: inline-block;
+  }
+  nav {
+    justify-content: space-around;
+  }
+  /*product width increase*/
+  .product {
+    width: 47%;
+  }
+}

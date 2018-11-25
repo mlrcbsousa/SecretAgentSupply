@@ -1,0 +1,46 @@
+/*resources/css/components/media-query-470.css*/
+@media only screen
+and (max-width : 470px) {
+  .min-width-470 {
+    display: none;
+  }
+  /*banner changes*/
+  #banner {
+    height: 15rem;
+    padding-top: 10rem;
+  }
+  #banner-content {
+    background-color: black;
+    font-weight: bold;
+    padding: 1rem 2rem;
+    width: auto;
+  }
+  #banner-content h1 {
+    font-size: 1rem;
+  }
+  #banner-content h3 {
+    font-size: 0.77rem;
+  }
+  /*products & locations changes*/
+  #products-content,
+  #locations-content {
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+  }
+  /*products*/
+  .product {
+    width: auto;
+  }
+  /*locations*/
+  .location {
+    width: 100%;
+  }
+  .location p {
+    padding-bottom: 0.5rem;
+  }
+  /*footer changes*/
+  #footer {
+    text-align: center;
+  }
+}

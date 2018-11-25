@@ -1,0 +1,14 @@
+/*resources/css/components/navigation.css*/
+#navigation {
+  background-color: firebrick;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  padding: 0.75rem 0;
+}
+#small-nav {
+  display: none;
+}
