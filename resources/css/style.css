@@ -2,14 +2,9 @@
 @import 'components/banner.css';
 @import 'components/navigation.css';
 @import 'components/products.css';
-@import 'components/location.css';
 @import 'components/footer.css';
-/*media queries*/
-@import 'components/media-query-1024.css';
-@import 'components/media-query-470.css';
 
 /* "Tamming" Box Model With Reset */
-
 html {
   box-sizing: border-box;
 }
@@ -17,13 +12,17 @@ html {
   box-sizing: inherit;
 }
 
+/*root*/
 html {
   font-size: 18px;
 }
 body {
-  background-color: black;
-  color: white;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
+  line-height: 1.4;
+}
+h1,
+h3 {
+  font-weight: bold;
 }
 h3 {
   font-size: 1rem;
@@ -35,8 +34,4 @@ a {
 .container {
   max-width: 960px;
   margin: 0 auto;
-}
-#wrapper-white {
-  background-color: white;
-  width: 100%;
 }

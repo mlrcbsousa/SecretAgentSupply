@@ -1,4 +1,13 @@
 /*resources/css/components/footer.css*/
-#footer p {
-  padding: 4rem 0;
+footer {
+  padding: 5rem 0;
+  margin-top: 4rem;
+  background-color: black;
+  color: white;
+}
+
+@media only screen and (max-width: 470px) {
+  footer {
+    text-align: center;
+  }
 }

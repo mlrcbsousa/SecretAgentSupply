@@ -1,11 +1,14 @@
 /*resources/css/components/header.css*/
 #header {
-  width: 100%;
+  background-color: black;
+  color: white;
 }
 #header img {
   height: 1.5rem;
-  margin: 0 1rem 0 0.5rem;
+  padding-right: 1rem;
 }
-#header h3 {
-  padding: 0.66rem 0;
+#header .container {
+  display: flex;
+  align-items: center;
+  padding: .66rem 0 .66rem 0.5rem;
 }

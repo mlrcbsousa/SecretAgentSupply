@@ -1,20 +1,38 @@
 /*resources/css/components/banner.css*/
 #banner {
-  background-image: url(../../images/moto.jpeg);
+  background: url(../../images/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   height: 25rem;
-  padding-top: 9rem;
-  width: 100%;
 }
 #banner-content {
-  background-color: black;
-  font-weight: bold;
+  position: relative;
+  top: 9rem;
   width: 20rem;
   padding: 2rem 3rem;
+  background-color: black;
+  color: white;
 }
 #banner-content h1 {
   font-size: 2rem;
-  padding-top: 0.25rem;
+  margin: 0.25rem 0;
+  line-height: 1.2;
+}
+
+@media only screen and (max-width: 470px) {
+  #banner {
+    height: 15rem;
+  }
+  #banner-content {
+    width: 100%;
+    padding: 1rem 2rem;
+    top: 10rem;
+  }
+  #banner-content h3 {
+    font-size: .77rem;
+  }
+  #banner-content h1 {
+    font-size: 1rem;
+  }
 }
